@@ -92,6 +92,7 @@ SYNCHRONOUS-UP-COUNTER:
 
 SYNCHRONOUS-DOWN-COUNTER:
 
+<img width="1919" height="174" alt="Screenshot 2025-12-10 113613" src="https://github.com/user-attachments/assets/4c3b32a4-f463-44a0-8600-6b1aa129c1e5" />
 
 **TRUTH TABLE**
 
