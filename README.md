@@ -40,6 +40,8 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 **PROGRAM**
 
+SYNCHRONOUS-UP-COUNTER
+
 ```
 module ex11(out,clk,rst);
 input clk,rst;
@@ -53,18 +55,43 @@ begin
 end
 endmodule
 ```
+SYNCHRONOUS-DOWN-COUNTER
 
+```
+module ex12(out,clk,rst);
+input clk,rst;
+output reg [3:0]out;
+always @ (posedge clk)
+begin
+   if(rst)
+     out<=0;
+   else 
+     out <= out-1;
+end
+endmodule
+```
 Developed by: PORCHEZIAN S
 
 RegisterNumber:25017994
 
 **RTL LOGIC UP COUNTER**
 
+SYNCHRONOUS-UP-COUNTER:
+
 <img width="1600" height="863" alt="Screenshot 2025-12-10 111103" src="https://github.com/user-attachments/assets/3e243bc3-85c8-4a74-8834-22bda8ba559d" />
+
+SYNCHRONOUS-DOWN-COUNTER:
+
+<img width="1638" height="857" alt="Screenshot 2025-12-10 113430" src="https://github.com/user-attachments/assets/425460b2-00ac-46e0-b03f-a15e2efcf834" />
 
 **TIMING DIAGRAM FOR IP COUNTER**
 
+SYNCHRONOUS-UP-COUNTER:
+
 <img width="1918" height="167" alt="Screenshot 2025-12-10 111425" src="https://github.com/user-attachments/assets/c0f5bb9c-0d53-435d-b82b-e650449a365a" />
+
+SYNCHRONOUS-DOWN-COUNTER:
+
 
 **TRUTH TABLE**
 
@@ -73,4 +100,4 @@ RegisterNumber:25017994
 
 **RESULTS**
 
-Thus to implement 4 bit synchronous up counter and validate functionality has been implemented successfully.
+Thus to implement 4 bit synchronous up counter and down counter and validate functionality has been implemented successfully.
