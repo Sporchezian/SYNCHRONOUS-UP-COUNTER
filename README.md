@@ -68,7 +68,8 @@ RegisterNumber:25017994
 
 **TRUTH TABLE**
 
-<img width="400" height="442" alt="image" src="https://github.com/user-attachments/assets/37940c13-909f-4b72-902e-3b999d9c4886" />
+![WhatsApp Image 2025-12-10 at 11 22 58_ab0bde01](https://github.com/user-attachments/assets/515b790c-8146-4a09-9992-6a4f536e5b9a)
+
 
 **RESULTS**
 
